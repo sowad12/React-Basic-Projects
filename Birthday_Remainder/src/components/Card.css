@@ -1,0 +1,45 @@
+/* center a div  using flex we can see in section class css*/
+
+section{
+background-color: #F28AB2; 
+height: 100vh;  
+display: flex;
+justify-content: center;
+align-items: center;  
+}
+
+.card{  
+   background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s; 
+   border-radius: 15px;
+   width: 20%;
+    height: 50vh;
+  overflow: auto;
+    
+
+}
+.card>h3{
+  padding-top: 35px;
+  padding-bottom:20px;
+  padding-left: 30px;
+}
+
+.card>button{
+ 
+width: 250px;
+height: 50px;
+
+border: none;
+border-radius: 5px;
+/* padding-left: 20px; */
+margin-top:20px;
+margin-left:70px ;
+margin-bottom: 30px;
+background: #f28ab2;
+color: #fff;
+text-transform: capitalize;
+font-size: 1.2rem;
+cursor: pointer;
+
+}
