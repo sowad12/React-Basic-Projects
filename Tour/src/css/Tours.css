@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.ToursContainer{
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: nowrap;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.ToursTitle{
+    padding-bottom: 20px;
+    text-decoration: underline;
+ 
+}
+

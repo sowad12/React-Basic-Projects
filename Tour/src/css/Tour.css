@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    
+}
+.card{
+display: flex;
+justify-content:space-evenly;
+/* padding: 10px; */
+flex-direction: column;
+gap: 1rem;
+flex:1;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+margin-bottom: 30px;
+
+}
+.card>img{
+    height: 40vh;
+    width: 75vh;
+    object-fit: cover;
+ 
+}
+.info{
+    font-family: 'Tai Heritage Pro', serif;
+    line-height: 25px;
+    height: 100%;
+    width: 70vh;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.info>button{
+color: #2471A3  ;
+font-weight: 1000;
+cursor: pointer;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn{
+     display: block;
+     /* send border in center */
+     margin: 0 auto; 
+     border: 1px solid red;
+     width: 180px;
+     height: 25px;
+     margin-top: 20px;
+     margin-bottom: 30px;
+     border-radius: 5px;
+     text-align: center;
+     padding-top: 7px;
+     cursor: pointer;
+}
+.btn>button{
+  cursor: pointer;
+}

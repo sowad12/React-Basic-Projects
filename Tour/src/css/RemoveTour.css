@@ -1,0 +1,21 @@
+.rmContainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 50vh;
+   
+}
+.rmContainer>h1{
+    font-size: 3rem;
+}
+.btnRf{
+    border: none;
+    outline: none;
+     background-color:white;
+    padding-top: 40px;
+    cursor: pointer;
+    font-size: 1.5rem;
+  color:#2E86C1
+   
+}

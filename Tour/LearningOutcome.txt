@@ -1,0 +1,34 @@
+-------------------css-----------------------
+1.create card :
+.card{
+display: flex;
+justify-content:space-evenly;
+flex-direction: column;
+gap: 1rem;
+flex:1;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); *******
+
+margin-bottom: 30px;
+}
+
+---------------------react------------
+1. use filter
+ const removeTour=(id)=>{
+const newTour=tourData.filter((data)=>{
+  return data.id!=id
+})
+setTourData(newTour)
+ }
+
+ 2.pass function using props
+ ex: send removeTour another .js file using props
+
+ 3.understand map Tours.js file
+ 
+4.map only works on Array
+
+5.Basic axios
+
+6.js substring ex:Tour.js file info
+
+7.Works with Loading.css animation because data fetch needs some time

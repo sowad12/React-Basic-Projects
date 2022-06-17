@@ -1,5 +1,5 @@
 import React from 'react'
-import FetchData from './FetchData'
+import FetchData from './components/FetchData'
 
 const App = () => {
   return (
