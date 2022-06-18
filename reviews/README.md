@@ -1,8 +1,14 @@
+Learning Outcomes
+
+
 ----------------------javascript Increase Decrease cart or item numbers--------
-1.
+
+
+
 //first Declare two useState
 
 const[index,setIndex]=useState(0);
+
 const{name,job,image,text}=data[index];
 
 const right=()=>{
@@ -13,11 +19,14 @@ setIndex((index+1)%(data.length))
 const left=()=>{
 
  if(index>0){
+ 
     setIndex(index-1) 
   }
   else if(index===0){
+  
    setIndex(data.length-1) 
   }
+  
 }
 
 //metarial ui icons 
